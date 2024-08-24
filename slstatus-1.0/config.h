@@ -66,8 +66,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-  { alsa_master_vol, "∑ %s ",   NULL },
-  { cpu_perc, "| ◈ %s%% ",	    NULL },
-	{ ram_perc, "| ▢ %s%% ",	    NULL },
-	{ datetime, "| %s",        "🅇 %a %e %B Ⓨ %R" },
+	{ netspeed_rx, "  %s ",   "wlan0" },
+	{ netspeed_tx, "  %s ",   "wlan0" },
+	{ alsa_master_vol, "|   %s ",   NULL },
+  { disk_perc, "|   %s%% ",	    "/home" },
+  { cpu_perc, "|   %s%% ",	    NULL },
+	{ ram_perc, "|  %s%% ",	    NULL },
+	{ datetime, "| %s",        "%d/%m %R" },
 };
