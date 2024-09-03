@@ -1,7 +1,12 @@
-## My Finale dwm/suckless build enjoy!
+# My Finale dwm/suckless build enjoy!
 
 ## Here some screenshots (needs picom w/ blur ofc) 
-
+#### deck layout:
+![deck layout](assets/2024-08-21_20-59.png)
+#### dmenu:
+![dmenu](assets/2024-08-22_20-45.png)
+#### slstatus:
+![slstatus](assets/clipboard.png)
 
 ## To use it,
 first clone the repo
@@ -41,3 +46,5 @@ if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
 logout
 fi
 ```
+
+
