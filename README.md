@@ -17,7 +17,7 @@ then cd to suckless directory
 ```
 cd suckless
 ```
-cd to what program to compile e.g. :dwm
+cd to what program to compile e.g. :dwm, slstatus, dmenu...
 ```
 cd dwm
 ```
