@@ -1,6 +1,6 @@
 ## My Finale dwm/suckless build enjoy!
 
-## here some screenshots (you need to use my picom config)
+## Here some screenshots (needs picom w/ blur ofc) 
 
 
 ## To use it,
