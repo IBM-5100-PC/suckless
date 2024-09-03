@@ -1,6 +1,9 @@
-My Finale dwm/suckless build enjoy!
+## My Finale dwm/suckless build enjoy!
 
-To use,
+## here some screenshots (you need to use my picom config)
+
+
+## To use it,
 first clone the repo
 ```
 git clone https://github.com/IBM-5100-PC/suckless.git 
@@ -20,8 +23,12 @@ sudo make clean install
 create/edit ```~/.dwm/autostart.sh```
 ```
 slstatus & #status bar
-picom & # compositor
-nitrogen --restore # wallpaper
+picom & #compositor
+nitrogen --restore #wallpaper setter
+```
+chmod ```~/.dwm/autostart.sh```
+```
+chmod +x ~/.dwm/autostart.sh
 ```
 edit ```~/.xinitrc``` and add
 ```
